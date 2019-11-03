@@ -26,5 +26,5 @@ public class ExampleInstrumentedTest {
     }
 }
 /**
- * Just checking GitHub Sync..
+ * Just checking GitHub Sync..;
  */
