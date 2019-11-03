@@ -25,3 +25,6 @@ public class ExampleInstrumentedTest {
         assertEquals("com.example.customer_app", appContext.getPackageName());
     }
 }
+/**
+ * Just checking GitHub Sync
+ */
