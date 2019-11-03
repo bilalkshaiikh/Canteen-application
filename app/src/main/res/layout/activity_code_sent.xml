@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".code_sent">
+    <Button
+        android:id="@+id/signUp"
+        android:layout_width="300dp"
+        android:layout_height="49dp"
+        android:background="@drawable/rounded"
+        android:text="Verify phone number"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.753" />
+
+    <ImageView
+        android:id="@+id/otp_img"
+        android:layout_width="199dp"
+        android:layout_height="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.148"
+        app:srcCompat="@drawable/otpverify" />
+
+    <TextView
+        android:id="@+id/otp_head"
+        android:layout_width="303dp"
+        android:layout_height="34dp"
+        android:text="We need to register your phone number before getting strated!"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.474" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="215dp"
+        android:layout_height="38dp"
+        android:text="Phone Verification"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.422" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="147dp"
+        android:layout_height="18dp"
+        android:text="@string/edit_phone"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.204"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.817" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="75dp"
+        android:layout_height="23dp"
+        android:text="Send again"
+        android:textAlignment="center"
+        android:textColor="#fa8d2a"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.839"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.823" />
+
+    <com.goodiebag.pinview.Pinview
+        android:id="@+id/pinview"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        app:cursorVisible="false"
+        app:forceKeyboard="true"
+        app:hint="0"
+        app:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.626"
+        app:password="false"
+        app:pinBackground="@drawable/example_drawable"
+        app:pinHeight="40dp"
+        app:pinLength="6"
+        app:pinWidth="40dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

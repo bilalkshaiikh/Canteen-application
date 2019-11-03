@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sign_in_option">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="832dp"
+        android:layout_height="1077dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498"
+        app:srcCompat="@drawable/splashlogo"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/eatcan"
+        android:layout_width="213dp"
+        android:layout_height="83dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="@font/shcbl"
+        android:gravity="top"
+        android:lineSpacingExtra="18sp"
+        android:text="@string/eatcan"
+        android:textAlignment="center"
+        android:textAppearance="@style/eatcan"
+        android:translationY="-9.25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.753" />
+
+    <TextView
+        android:id="@+id/ordering_ma"
+        android:layout_width="226dp"
+        android:layout_height="21dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="@font/shcbl"
+        android:gravity="top"
+        android:lineSpacingExtra="5sp"
+        android:text="@string/ordering_ma"
+        android:textAppearance="@style/ordering_ma"
+        android:textSize="18sp"
+        android:translationY="-2.31sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.854"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.761" />
+
+    <Button
+        android:id="@+id/signUp"
+        android:layout_width="300dp"
+        android:layout_height="49dp"
+        android:background="@drawable/rounded"
+        android:text="SignUp"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.862" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="300dp"
+        android:layout_height="49dp"
+        android:background="@drawable/rounded_1"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.944" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="124dp"
+        android:layout_height="16dp"
+        android:fontFamily="@font/shcbl"
+        android:text="@string/works"
+        android:textAlignment="center"
+        android:textColor="#fa8d2a"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977" />
+</androidx.constraintlayout.widget.ConstraintLayout>
